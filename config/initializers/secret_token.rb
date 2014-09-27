@@ -16,4 +16,4 @@ def secure_token
     token
   end
 end
-FacebookApp::Application.config.secret_key_base = secure_token
+FacebookApp::Application.config.secret_token = secure_token
